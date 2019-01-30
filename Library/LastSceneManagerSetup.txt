@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/JsonNetDemo/JsonNetDemo.unity
-  isLoaded: 1
-  isActive: 1
