@@ -1,3 +1,4 @@
 /.vs
-/Lib
+/Library
 *.sln
+/Temp
