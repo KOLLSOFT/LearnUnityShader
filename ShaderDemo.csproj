@@ -240,6 +240,7 @@
   <ItemGroup>
     <None Include="Assets\LightDemo\Shaders\FragLight.shader" />
     <None Include="Assets\LightDemo\Shaders\HalfLambert.shader" />
+    <None Include="Assets\LightDemo\Shaders\Specular.shader" />
     <None Include="Assets\LightDemo\Shaders\VertLight.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
