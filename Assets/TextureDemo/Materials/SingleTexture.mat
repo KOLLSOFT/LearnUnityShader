@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Specular
-  m_Shader: {fileID: 4800000, guid: 297a86bb6469a0240a0b0283b4f459f0, type: 3}
+  m_Name: SingleTexture
+  m_Shader: {fileID: 4800000, guid: e90c4850b3117604abf72a4afae98517, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -39,7 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d129400885fa12a48bcea314fe6738bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -72,11 +72,8 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _gloss: 8
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Diffuse: {r: 0.16911763, g: 0.16911763, b: 0.16911763, a: 1}
+    - _Diffuse: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Specular: {r: 1, g: 0, b: 0, a: 1}
-    - _diffuse: {r: 1, g: 1, b: 1, a: 1}
-    - _specular: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 0.2794118, g: 0.2794118, b: 0.2794118, a: 1}

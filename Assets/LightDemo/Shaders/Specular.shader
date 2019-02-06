@@ -50,7 +50,7 @@
 				fixed3 worldlightdir = normalize(_WorldSpaceLightPos0.xyz);
 				fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldnormal, worldlightdir));
 				fixed3 reflectDir = normalize(reflect(-worldlightdir, worldnormal));
-				fixed3 viewdir = normalize(_WorldSpaceLightPos0.xyz - mul(v.vertex, unity_WorldToObject).xyz);
+				fixed3 viewdir = normalize(UnityWorldSpaceViewDir(v.vertex));//normalize(_WorldSpaceCameraPos.xyz - mul(v.vertex, unity_WorldToObject).xyz);
 				fixed3 specular = _LightColor0.rgb * _Specular * pow(saturate(dot(reflectDir, viewdir)), _Gloss);
 				o.color = ambient + diffuse + specular;
 				//o.color = diffuse;
